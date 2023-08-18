@@ -3,13 +3,13 @@
 This project intends to create a 6502 processor emulator for the porpose of learning the concepts processors work, to train the C programming language skills so as CMake and unit tests.
 
 The project was based on the fllowing tutorial:
-[url](https://www.youtube.com/watch?v=qJgsuQoy9bc)
+[Emulating a CPU in C++ (6502)](https://www.youtube.com/watch?v=qJgsuQoy9bc)
 
 Which has its own repository on github:
-[url](https://github.com/davepoo/6502Emulator)
+[Github](https://github.com/davepoo/6502Emulator)
 
 And as complement of the development the following website:
-[url](http://www.6502.org/users/obelisk/)
+[6502](http://www.6502.org/users/obelisk/)
 
 ## Usage
 
