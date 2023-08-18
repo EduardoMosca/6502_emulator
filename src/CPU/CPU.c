@@ -9,7 +9,7 @@ C_VOID startCPU(START_CPU_PARAMETERS)
 C_S_VOID Reset(RESET_PARAMETERS)
 {
   cpu->PC = 0xFFFC;
-  cpu->SP = 0x0100;
+  cpu->SP = (uint8_t)0x0100;
   cpu->D = 0;
   cpu->C = cpu->Z = cpu->I = cpu->D = cpu->B = cpu->O = cpu->N = 0;
   cpu->AC = cpu->X = cpu->Y = 0;
